@@ -1,0 +1,28 @@
+.banner {
+  background: conic-gradient(darkred, darkblue, darkblue, darkred, darkred);
+}
+
+.title {
+  font-family: Tahoma, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+button {
+  max-width: 0.5rem 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  outline: none;
+  color: white;
+  background: conic-gradient(darkred, darkblue, darkblue, darkred, darkred);
+}
+.settings {
+  background: conic-gradient(darkred, darkblue, darkblue, darkred, darkred);
+}
