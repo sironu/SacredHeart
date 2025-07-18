@@ -38,7 +38,8 @@ darkMode.addEventListener("click", () => {
 const fonts = document.querySelector(".incFont");
 const range = document.querySelector("#range-val");
 const pTags = document.getElementsByTagName([..."p"]);
-console.log(pTags)
+// pTags.pop()
+console.log("pTags", pTags.length)
 
 
 range.addEventListener("input", () => {
@@ -49,6 +50,15 @@ range.addEventListener("input", () => {
   // }
  
  });
+
+
+
+ let s = 3
+ console.log("s:", s)
+let arr = [3, true, "emma", [2,"5"], {age: 30}]
+console.log("arr:", arr.length);
+
+
 
 
 
