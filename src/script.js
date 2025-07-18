@@ -37,14 +37,16 @@ darkMode.addEventListener("click", () => {
 
 const fonts = document.querySelector(".incFont");
 const range = document.querySelector("#range-val");
-const pTags = document.getElementsByTagName("p");
+const pTags = document.getElementsByTagName([..."p"]);
+console.log(pTags)
+
 
 range.addEventListener("input", () => {
   let x = fonts.style.fontSize = `${range.value}rem` 
   console.log(x);
-  for(let eachPTag of pTags) {
-    eachPTag.style.fontSize = x
-  }
+  // for(let eachPTag of pTags) {
+  //   eachPTag.style.fontSize = x
+  // }
  
  });
 
